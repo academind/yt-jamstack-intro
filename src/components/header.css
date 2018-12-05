@@ -1,0 +1,13 @@
+.main-header {
+  width: 100%;
+  height: 4.5rem;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-header h1 a {
+  color: white;
+  text-decoration: none;
+}

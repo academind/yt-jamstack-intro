@@ -1,0 +1,27 @@
+.post__data,
+.post__content {
+  text-align: center;
+  background: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  width: 50rem;
+  max-width: 90%;
+  padding: 1rem;
+  margin: auto;
+}
+
+.post__title {
+  background: #ffcea7;
+  display: inline-block;
+  padding: 1rem;
+  margin: 0;
+}
+
+.post__metadata {
+  font-size: 1.25rem;
+  color: #9c9c9c;
+}
+
+.post__content {
+  margin: 2rem auto;
+  text-align: left;
+}

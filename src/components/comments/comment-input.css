@@ -1,0 +1,32 @@
+.comments__form textarea {
+  font: inherit;
+  display: block;
+  padding: 0.15rem;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.comments__form textarea:focus {
+  outline: none;
+  border: 1px solid #fa923f;
+}
+
+.comments__form button {
+  font: inherit;
+  padding: 0.25rem 0.5rem;
+  background: #fa923f;
+  color: white;
+  border: 1px solid #fa923f;
+  cursor: pointer;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.26);
+}
+
+.comments__form button:hover,
+.comments__form button:active {
+  background: #ffab65;
+  border-color: #ffab65;
+}
+
+.comments__form button:focus {
+  outline: none;
+}

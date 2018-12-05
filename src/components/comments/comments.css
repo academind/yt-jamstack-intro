@@ -1,0 +1,15 @@
+.comments {
+  text-align: center;
+  background: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  width: 50rem;
+  max-width: 90%;
+  padding: 1rem;
+  margin: auto;
+}
+
+.comments__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
