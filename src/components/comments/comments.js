@@ -9,7 +9,7 @@ class Comments extends Component {
 
   componentDidMount() {
     fetch(
-      `https://jam-example-deeda.firebaseio.com/comments/${
+      `YOUR_FIREBASE_API/comments/${
         this.props.postId
       }.json`
     )
@@ -33,7 +33,7 @@ class Comments extends Component {
 
   handleCommentSubmit = commentText => {
     fetch(
-      `https://jam-example-deeda.firebaseio.com/comments/${
+      `YOUR_FIREBASE_API/comments/${
         this.props.postId
       }.json`,
       {
